@@ -1,0 +1,10 @@
+<div class="alert  alert-dismissible card border-info mb-3"  style="max-width: 100%;" 
+     role="alert" *ngFor="let post of temp">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+      aria-hidden="true">&times;</span></button>
+    <div class="card-header">{{post.id}}</div>
+    <div class="card-body">
+      <h4 class="card-title">{{post.title}}</h4>
+      <p class="card-text">{{post.body}}</p>
+    </div>
+</div>

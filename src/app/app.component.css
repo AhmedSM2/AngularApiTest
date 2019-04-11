@@ -1,0 +1,10 @@
+.d_right{
+    min-height: 200px;
+}
+.d_right>div{
+    background: #f50;
+    margin: 10px;
+}
+.d_right,.d_left{
+    display: inline-block;
+}
